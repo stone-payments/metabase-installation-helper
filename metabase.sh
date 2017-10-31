@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+export MB_JETTY_PORT=$PORT
+export MB_JETTY_HOST=0.0.0.0
+export MB_PASSWORD_COMPLEXITY=strong
+export MB_PASSWORD_LENGTH=10
+export MB_ENCRYPTION_SECRET_KEY=$SECRET_KEY
+export MB_DB_TYPE=$DATABASE_TYPE
+export MB_DB_DBNAME=$DATABASE_NAME
+export MB_DB_PORT=$DATABASE_PORT
+export MB_DB_USER=$DATABASE_USER
+export MB_DB_PASS=$DATABASE_PASS
+export MB_DB_HOST=$DATABASE_HOST
+exec java -Xmx512m -Xss512k -jar ./metabase.jar
