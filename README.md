@@ -1,13 +1,13 @@
-# Metabase
+# Metabase Installation Helper
 
 
-## O que é 
+## O que é metabase?
 
 Metabase é um servidor Open source de BI (business Intelligence), que você pode instalar de forma simples e que pode conectar-se ao MySQL, PostgreSQL, MongoDB e outros bancos de dados.
 
 Ele é uma maneira mais rápida e fácil de analisar dados. Onde qualquer pessoa pode usá-lo para construir gráficos e dashboards.
 
-## Este repositório
+## O que é este repositório?
 
 Repositório criado para facilitar a instalação de uma instância do metabase em um PAAS através da documentação dos passos necessários.
 
