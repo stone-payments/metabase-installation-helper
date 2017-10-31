@@ -31,6 +31,6 @@ Repositório criado para facilitar a instalação de uma instância do metabase 
 
 > https://www.metabase.com/start/jar.html
 
-4. Fazer o deploy normalmente no PAAS deu sua preferência.
+4. Fazer o deploy normalmente no PAAS de sua preferência.
 
 Obs.: Para execução local basta fazer os passos acima e executar o arquivo **metabase.sh**
